@@ -1,4 +1,4 @@
-package com.yl.dataandAlg;
+package com.yl.dataandAlg.binaryHeap;
 
 /**
  * https://www.jianshu.com/p/316a4b4ee715
