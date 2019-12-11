@@ -1,7 +1,7 @@
 package com.yl.dataandAlg.binaryHeap;
 
 /**
- * https://www.geeksforgeeks.org/min-heap-in-java/
+ * https://www.javascan.com/681/java-program-to-implement-skew-heap
  */
 // Java implementation of Min Heap
 public class MinHeap {
