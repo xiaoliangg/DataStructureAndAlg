@@ -3,6 +3,7 @@ package com.yl.dataandAlg.binaryHeap;
 //https://www.geeksforgeeks.org/min-heap-in-java/
 // Java program to demonstrate working of PriorityQueue
 //add() peek() poll() remove() contains() toArray
+//element()和peek()的语义完全相同，都是获取但不删除队首元素
 import java.util.*;
 
 public class PriorityQueueExample {
