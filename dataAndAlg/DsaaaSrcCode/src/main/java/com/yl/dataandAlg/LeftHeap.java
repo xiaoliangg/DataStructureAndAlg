@@ -1,5 +1,8 @@
 package com.yl.dataandAlg;
 
+/**
+ * https://www.jianshu.com/p/316a4b4ee715
+ */
 public class LeftHeap {
     public HeapNode root;
     public LeftHeap(int val){
