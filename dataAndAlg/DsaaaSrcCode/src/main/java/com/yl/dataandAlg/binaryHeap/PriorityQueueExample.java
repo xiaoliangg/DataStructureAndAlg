@@ -58,4 +58,5 @@ public class PriorityQueueExample {
         for (int i = 0; i < arr.length; i++)
             System.out.println("Value: " + arr[i].toString());
     }
+
 }
