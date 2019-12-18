@@ -102,8 +102,8 @@ public class ListUDG {
         // 初始化"边"
         for (int i = 0; i < elen; i++) {
             // 读取边的起始顶点和结束顶点
-            char c1 = edges[i][0];
-            char c2 = edges[i][1];
+//            char c1 = edges[i][0];
+//            char c2 = edges[i][1];
             // 读取边的起始顶点和结束顶点
             int p1 = getPosition(edges[i][0]);
             int p2 = getPosition(edges[i][1]);
