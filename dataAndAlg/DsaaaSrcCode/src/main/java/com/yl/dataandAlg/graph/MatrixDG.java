@@ -10,6 +10,7 @@ package com.yl.dataandAlg.graph;
 import java.io.IOException;
 import java.util.Scanner;
 
+
 public class MatrixDG {
 
     private char[] mVexs;       // 顶点集合
