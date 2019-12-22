@@ -2,7 +2,7 @@ package com.yl.dataandAlg.graph.kruscal;
 
 /**
  * Java prim算法生成最小生成树(邻接表)
- *
+ * https://www.cnblogs.com/skywang12345/p/3711504.html
  * @author skywang
  * @date 2014/04/23
  */

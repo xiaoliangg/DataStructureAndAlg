@@ -2,7 +2,7 @@ package com.yl.dataandAlg.graph.dijkstra;
 
 /**
  * Java: Dijkstra算法获取最短路径(邻接表)
- *
+ * https://www.cnblogs.com/skywang12345/p/3711516.html
  * @author skywang
  * @date 2014/04/24
  */
