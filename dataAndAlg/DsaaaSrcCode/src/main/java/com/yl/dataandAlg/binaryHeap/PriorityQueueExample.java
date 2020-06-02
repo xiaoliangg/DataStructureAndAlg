@@ -31,7 +31,7 @@ public class PriorityQueueExample {
 
         // Removing the top priority element (or head) and
         // printing the modified pQueue using poll()
-        pQueue.poll();
+        System.out.println("Head value using poll function:" + pQueue.poll());
         System.out.println("After removing an element "
                 + "with poll function:");
         Iterator<Integer> itr2 = pQueue.iterator();

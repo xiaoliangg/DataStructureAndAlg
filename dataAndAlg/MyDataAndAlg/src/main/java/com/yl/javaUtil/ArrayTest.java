@@ -1,4 +1,4 @@
-package com.yl.ds;
+package com.yl.javaUtil;
 
 import org.junit.Test;
 
