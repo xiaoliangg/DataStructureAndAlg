@@ -1,4 +1,4 @@
-package com.yl.ds;
+package com.yl.javaUtil;
 
 import com.sun.deploy.util.ArrayUtil;
 

@@ -1,4 +1,4 @@
-package com.yl.alg;
+package com.yl.tree;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -11,7 +11,7 @@ import java.util.List;
  */
 public class AVLTree {
     public class Node {
-        private Node left, right, parent;
+        private Node left, right;
         private int height = 1;
         private int value;
 

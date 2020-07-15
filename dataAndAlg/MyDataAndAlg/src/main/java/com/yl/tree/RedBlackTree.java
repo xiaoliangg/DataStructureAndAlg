@@ -1,4 +1,4 @@
-package com.yl.alg;
+package com.yl.tree;
 
 import java.util.Scanner;
 
