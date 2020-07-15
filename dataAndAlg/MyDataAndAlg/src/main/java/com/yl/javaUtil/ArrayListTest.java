@@ -4,6 +4,7 @@ import org.junit.Test;
 
 import java.util.ArrayList;
 import java.util.Iterator;
+import java.util.LinkedList;
 import java.util.List;
 
 public class ArrayListTest {
@@ -47,10 +48,26 @@ public class ArrayListTest {
             String s = iterator.next(); //抛出 java.util.ConcurrentModificationException
         }
     }
+    /**
+     * 增强的for循环隐式的使用iterator，故也会报错 ConcurrentModificationException.TODO: 不符合预期
+     * 实现Iterable接口的那些类可以拥有增强的for循环 --《数据结构与算法 3.3.1》
+     */
+    @Test
+    public void testIterator2_2(){
+        List<String> arrayList = new LinkedList<>();
+        arrayList.add("22");
+        arrayList.add("33");
+
+        for (String s: arrayList){
+//            arrayList.remove(1);
+            arrayList.clear();
+            System.out.println(s);
+        }
+    }
 
     /**
      * 测试 ensureCapacity()
-     * 设置容量为一个足够大的量以避免数组容量以后的扩展 TODO: 未完成
+     * 设置容量为一个足够大的量以避免数组容量以后的扩展--《数据结构与算法 3.3.3》 TODO: 未完成
      */
     @Test
     public void testEnsureCapacity(){
@@ -66,7 +83,7 @@ public class ArrayListTest {
 
     /**
      * 测试 trimToSize()
-     * 在所有的ArrayList添加操作完成之后使用以避免浪费空间 TODO: 未完成
+     * 在所有的ArrayList添加操作完成之后使用以避免浪费空间--《数据结构与算法 3.3.3》 TODO: 未完成
      */
     @Test
     public void testTrimToSize(){
